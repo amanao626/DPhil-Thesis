@@ -16,7 +16,6 @@ This repository contains R scripts and figures for each experiment conducted as 
 Due to research ethics considerations, the original data are not publicly available. However, the structure and methods of analysis are documented in a reproducible format.
 
 ### Steps:
-
 1. Clone this repository or download it as a ZIP file.
 2. Open the `.Rproj` file or individual R scripts in each experiment folder in RStudio.
 3. Each experiment folder (e.g., `Experiment 1 pilot/`) contains:
@@ -24,3 +23,17 @@ Due to research ethics considerations, the original data are not publicly availa
    - `figures/`: Figures and outputs included in the dissertation
 
 > 💡 Although the data are not included, detailed comments in the scripts explain the required variables and preprocessing steps.
+
+
+
+├── data/ # (not included) placeholder for data
+├── Experiment 1 Pilot Study/
+│ ├── scripts/ # R scripts (data processing, analysis, visualization)
+│ └── figures/ # Figures used in the thesis
+│
+├── Experiment 1 Main Experiment/
+│ ├── scripts/
+│ └── figures/
+│
+└── README.md
+
