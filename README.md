@@ -9,11 +9,6 @@ The thesis has two main aims:
 
 Because of space constraints in the thesis, this repository provides additional resources and the code required to reproduce the statistical analyses and figures (with synthetic or example-ready structures where original data cannot be shared).
 
-- `scripts/`: Data processing, analysis, figure generation, and selected example outputs  
-- `figures/`: Figures included in the thesis (exported)  
-- `data/`: **No raw data** (see Ethics note below); includes schema/examples where relevant  
-- `docs/`: Summaries and supplementary notes
-
 ## How to use
 1. **Clone** this repository or download it as a ZIP.  
 2. Open the `.Rproj` file (or individual scripts) in **RStudio**.  
