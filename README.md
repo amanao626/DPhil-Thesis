@@ -7,14 +7,12 @@ The thesis has two main aims:
 1) to investigate factors that affect the intelligibility of Japanese-accented English; and  
 2) to examine the potential for rapid adaptation to Japanese-accented English following training.
 
-Because of space constraints in the thesis, this repository provides additional resources and the code required to reproduce the statistical analyses and figures (with synthetic or example-ready structures where original data cannot be shared).
+Because of space constraints in the thesis, this repository provides additional resources and the code required to reproduce the statistical analyses and figures.
 
 ## How to use
 1. **Clone** this repository or download it as a ZIP.  
 2. Open the `.Rproj` file (or individual scripts) in **RStudio**.  
-3. Run scripts in the relevant experiment folder (e.g., `scripts/Experiment 1/`) to reproduce analyses and regenerate figures.  
-
-> 💡 Although original data are not included, scripts are fully annotated so you can follow the workflow and reproduce results with similarly structured data.
+3. Run scripts in the relevant experiment folder to reproduce analyses and regenerate figures.  
 
 ## Requirements
 - R (≥ 4.x) and RStudio (recommended)  
