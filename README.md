@@ -34,10 +34,6 @@ Because of space constraints in the thesis, this repository provides additional 
 Due to research ethics constraints, the original participant data are **not publicly available**.  
 On reasonable request, de-identified summaries or synthetic examples may be shared subject to approvals.
 
-## Citation
-If you use or adapt these materials, please cite the thesis and this repository.  
-> Amano, N. (2025). *Intelligibility and Comprehensibility of Accented English: The Case of Japanese Speakers of English* (Doctoral thesis, University of Oxford).
-
 ## Contact
 For questions about the code, figures, or analysis pipeline:  
 `naosuke.amano@sant.ox.ac.uk`
