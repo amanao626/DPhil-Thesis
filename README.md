@@ -1,39 +1,47 @@
-# R scripts and data for doctoral thesis: A study on the intelligibility of Japanese accented English
+# R Scripts and Materials for Doctoral Thesis  
+**Intelligibility and Comprehensibility of Accented Speech: The Case of Japanese Speakers of English**
 
 ## Overview
-This repository contains R scripts and related data used in my doctoral thesis submitted to the University of Oxford.
-The thesis has mainly the following two purposes: 1) investigates factors that affect the intelligibility of Japanese accented English speech and 2. examines possibility of rapid adaptation to Japanese accented English after training. 
-This repository makes available the resources used to show some resources difficult to present in thesis itself because of space and reproduce the statistical analyses and visualizations.
+This repository contains R scripts and related materials used in my doctoral thesis submitted to the University of Oxford.  
+The thesis has two main aims:  
+1) to investigate factors that affect the intelligibility of Japanese-accented English; and  
+2) to examine the potential for rapid adaptation to Japanese-accented English following training.
 
-##Folder Structure
-'data'
-```Experiment 1 poilot study```
-```Experiment 1 main experiment```
+Because of space constraints in the thesis, this repository provides additional resources and the code required to reproduce the statistical analyses and figures (with synthetic or example-ready structures where original data cannot be shared).
 
-## How to Use
+- `scripts/`: Data processing, analysis, figure generation, and selected example outputs  
+- `figures/`: Figures included in the thesis (exported)  
+- `data/`: **No raw data** (see Ethics note below); includes schema/examples where relevant  
+- `docs/`: Summaries and supplementary notes
 
-This repository contains R scripts and figures for each experiment conducted as part of my doctoral dissertation (e.g., Experiment 1 Pilot, Experiment 1 Main Experiment).  
-Due to research ethics considerations, the original data are not publicly available. However, the structure and methods of analysis are documented in a reproducible format.
+## How to use
+1. **Clone** this repository or download it as a ZIP.  
+2. Open the `.Rproj` file (or individual scripts) in **RStudio**.  
+3. Run scripts in the relevant experiment folder (e.g., `scripts/Experiment 1/`) to reproduce analyses and regenerate figures.  
+4. Where data are required, scripts include detailed comments describing variable names, expected formats, and preprocessing steps.
 
-### Steps:
-1. Clone this repository or download it as a ZIP file.
-2. Open the `.Rproj` file or individual R scripts in each experiment folder in RStudio.
-3. Each experiment folder (e.g., `Experiment 1 pilot/`) contains:
-   - `scripts/`: R scripts for data processing, analysis, figure generation, and some real output
-   - `figures/`: Figures and outputs included in the dissertation
+> 💡 Although original data are not included, scripts are fully annotated so you can follow the workflow and reproduce results with similarly structured data.
 
-> 💡 Although the data are not included, detailed comments in the scripts explain the required variables and preprocessing steps.
+## Requirements
+- R (≥ 4.x) and RStudio (recommended)  
+- Key packages: `tidyverse`, `lme4`, `emmeans`, `DHARMa`, `ggplot2`, `performance`  
+  - Install with:
+    ```r
+    install.packages(c("tidyverse","lme4","emmeans","DHARMa","ggplot2","performance"))
+    ```
 
+## Ethics & data availability
+Due to research ethics constraints, the original participant data are **not publicly available**.  
+On reasonable request, de-identified summaries or synthetic examples may be shared subject to approvals.
 
+## Citation
+If you use or adapt these materials, please cite the thesis and this repository.  
+> Amano, N. (2025). *Intelligibility and Comprehensibility of Accented English: The Case of Japanese Speakers of English* (Doctoral thesis, University of Oxford).
 
-├── data/ # (not included) placeholder for data
-├── Experiment 1 Pilot Study/
-│ ├── scripts/ # R scripts (data processing, analysis, visualization)
-│ └── figures/ # Figures used in the thesis
-│
-├── Experiment 1 Main Experiment/
-│ ├── scripts/
-│ └── figures/
-│
-└── README.md
+## Contact
+For questions about the code, figures, or analysis pipeline:  
+`naosuke.amano@sant.ox.ac.uk`
+
+## Licence
+Code is released under the MIT License (figures and text may have different rights as indicated).
 
