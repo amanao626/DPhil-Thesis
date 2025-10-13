@@ -18,7 +18,6 @@ Because of space constraints in the thesis, this repository provides additional 
 1. **Clone** this repository or download it as a ZIP.  
 2. Open the `.Rproj` file (or individual scripts) in **RStudio**.  
 3. Run scripts in the relevant experiment folder (e.g., `scripts/Experiment 1/`) to reproduce analyses and regenerate figures.  
-4. Where data are required, scripts include detailed comments describing variable names, expected formats, and preprocessing steps.
 
 > 💡 Although original data are not included, scripts are fully annotated so you can follow the workflow and reproduce results with similarly structured data.
 
@@ -30,14 +29,8 @@ Because of space constraints in the thesis, this repository provides additional 
     install.packages(c("tidyverse","lme4","emmeans","DHARMa","ggplot2","performance"))
     ```
 
-## Ethics & data availability
-Due to research ethics constraints, the original participant data are **not publicly available**.  
-On reasonable request, de-identified summaries or synthetic examples may be shared subject to approvals.
-
 ## Contact
 For questions about the code, figures, or analysis pipeline:  
 `naosuke.amano@sant.ox.ac.uk`
 
-## Licence
-Code is released under the MIT License (figures and text may have different rights as indicated).
 
