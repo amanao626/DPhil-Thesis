@@ -1,11 +1,11 @@
 # R Scripts and Materials for Doctoral Thesis  
-**Intelligibility and Comprehensibility of Accented Speech: The Case of Japanese Speakers of English**
+**Intelligibility and comprehensibility of accented speech: The case of Japanese speakers of English**
 
 ## Overview
 This repository contains R scripts and related materials used in my doctoral thesis submitted to the University of Oxford.  
 The thesis has two main aims:  
-1) to investigate factors that affect the intelligibility of Japanese-accented English; and  
-2) to examine the potential for rapid adaptation to Japanese-accented English following training.
+1) to investigate factors that affect the intelligibility of Japanese accented English; and  
+2) to examine the potential for rapid adaptation to Japanese accented English following training.
 
 Because of space constraints in the thesis, this repository provides additional resources and the code required to reproduce the statistical analyses and figures.
 
